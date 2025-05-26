@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #0056b3;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.userActions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userIcon {
+    color: white;
+    cursor: default;
+}
